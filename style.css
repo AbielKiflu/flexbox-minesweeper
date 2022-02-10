@@ -40,9 +40,43 @@
     border-right: 2px dotted black;
     border-bottom: 2px dotted black;
     font-size: 40px;
-    padding: 10px;
+    text-align: center;
+    position: relative;
 }
 
-_88{
-    border:solid 2px black;
+.one{
+color: #5600FF;
+}
+
+.two{
+    color:#009F00
+    
+}
+
+.three{
+    color:#FF0000;
+}
+
+
+.mine{
+    background-image: url("mine.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.minesweeper div div:hover{
+    background-color: #CBCBCB;
+    opacity: 0;
+}
+ 
+
+.minesweeper div div{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #CBCBCB;
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    position:absolute;
+    top: 0;
 }
