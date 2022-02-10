@@ -1,0 +1,48 @@
+ *{
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #41A5E1;
+     
+ }
+.container{
+    margin:auto;
+    border:1px solid;
+    width:513px;
+    height:513px;
+    background-color: #CBCBCB;
+   
+}
+
+
+  
+.minesweeper{
+    margin:auto;
+    border:1px solid;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-top: ridge 15px #CBCBCB;
+    border-left: ridge 15px #CBCBCB;
+    border-right: inset 15px #FDFEFD;
+    border-bottom: ridge 15px #FDFEFD;
+}
+
+
+
+
+.minesweeper > div{
+    width: 60px;
+    height: 60px;
+    border-right: 2px dotted black;
+    border-bottom: 2px dotted black;
+    font-size: 40px;
+    padding: 10px;
+}
+
+_88{
+    border:solid 2px black;
+}
