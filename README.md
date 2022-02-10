@@ -1,3 +1,3 @@
 ## Project name Minesweeper
 
-###### Please click here to visit the page
+###### Please click [here]( https://abielkiflu.github.io/flexbox-minesweeper/) to visit the page :)
